@@ -1,0 +1,42 @@
+body {
+    background-color: #1F555C;
+    color: white;
+    font-size: large;
+}
+.container{
+    margin: auto;
+    text-align: center;
+    /* align-self: center;
+    justify-content: center; */
+    padding: 10%;
+    /* margin-left: 25%; */
+}
+.group-div{
+    display: flex;
+    justify-content: center;
+   
+    
+   
+}
+.break-div{
+    display: flex;
+    justify-content: center;
+    background-color:brown;
+    margin-bottom: 10px;
+    
+   
+}
+.group-div p{
+    margin-left: 30px;
+}
+.break-div p{
+    margin-left: 30px;
+}
+.border-div{
+    width: 250px;
+    height: 150px;
+    margin: auto;
+    border-radius: 50px;
+    border: 5px solid #13353A;
+    
+}
