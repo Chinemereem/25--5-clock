@@ -1,42 +1,98 @@
 body {
-    background-color: #1F555C;
-    color: white;
-    font-size: large;
+  background-color: #1f555c;
+  color: white;
+  font-size: large;
+  font-family: "Times New Roman", Times, serif;
 }
-.container{
-    margin: auto;
-    text-align: center;
-    /* align-self: center;
-    justify-content: center; */
-    padding: 10%;
-    /* margin-left: 25%; */
+.container {
+  margin: auto;
+  text-align: center;
+  padding: 10%;
+ 
 }
-.group-div{
-    display: flex;
-    justify-content: center;
+.group-div {
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  flex-wrap: wrap;
+}
+#break-label {
+  margin-right: 20px;
+  font-size: 30px;
+}
+#session-label {
+  margin-left: 40px;
+  font-size: 30px;
+}
+#break-increment {
+  height: 25px;
    
-    
-   
+  align-self: center;
+  margin-bottom: 10px;
+  margin-right: 40px;
+  /* margin-bottom: 0; */
+  border-radius: 10px;
+  background-color: #13353a;
 }
-.break-div{
-    display: flex;
-    justify-content: center;
-    background-color:brown;
-    margin-bottom: 10px;
-    
-   
+#break-decrement {
+  height: 25px;
+  align-self: center;
+  margin-bottom: 10px;
+  margin-right: 35px;
+  border-radius: 10px;
+  /* margin-bottom: 0; */
+  background-color: #13893a;
 }
-.group-div p{
-    margin-left: 30px;
+#session-decrement {
+  margin: auto;
+  margin-right: 30px;
+  background-color: #13893a;
+  border-radius: 10px;
 }
-.break-div p{
-    margin-left: 30px;
+#session-increment {
+  margin: auto;
+  margin-left: 30px;
+  background-color: #13353a;
+  border-radius: 10px;
 }
-.border-div{
-    width: 250px;
-    height: 150px;
-    margin: auto;
-    border-radius: 50px;
-    border: 5px solid #13353A;
-    
+.break-div {
+  display: flex;
+ 
+  justify-content: center;
+  flex-wrap: wrap;
+  background-color: #1e1f27;
+  margin-bottom: 10px;
+  border-radius: 5px;
 }
+.break-num {
+  width: 40px;
+  align-self: center;
+  margin-right: 40px;
+}
+
+.group-div p {
+  margin-left: 30px;
+}
+
+#border-div {
+  width: 250px;
+  height: 150px;
+  margin: auto;
+  margin-top: 15px;
+  border-radius: 50px;
+  border: 5px solid #13353a;
+  align-items: center;
+  margin-bottom: 20px;
+}
+#timer-label {
+  font-size: 25px;
+  margin: auto;
+  margin-top: 15px;
+}
+
+#time-left {
+  font-size: 70px;
+  margin: auto;
+}
+
+
